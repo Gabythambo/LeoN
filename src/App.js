@@ -5,12 +5,12 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 //Provider
 import { CartContextProvider } from './context/cartContext';
 //componentes
-import NavBar from './components/navBar/navBar.jsx';
+import NavBar from './components/NavBar/navBar.jsx';
 import ItemListContainer from './components/ItemListContainer/index';
 import ItemDetailContainer from './components/ItemDetailContainer/index';
-import Footer from './components/footer/footer.jsx'
+import Footer from './components/Footer/footer.jsx'
 import UserForm from './components/userForm/userForm.jsx';
-import CartView from './components/cartView/cartView.jsx';
+import CartView from './components/CartView/cartView.jsx';
 //toastify
 import {ToastContainer} from 'react-toastify';
 

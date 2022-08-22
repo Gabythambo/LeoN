@@ -1,7 +1,7 @@
 import "./main.css";
 import React, { useEffect, useState } from "react";
 import ItemList from "../itemList/itemList.jsx";
-import getProducts from "../../helpers/getProducts";
+import getProducts from "../../Helpers/getProducts";
 import { useParams } from "react-router-dom";
 import itemsData from "../../apiData/apiData.jsx";
 import UserForm from "../userForm/userForm.jsx";
